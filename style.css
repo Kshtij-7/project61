@@ -1,0 +1,125 @@
+#i1 {
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+    width: 160px;
+    height: 160px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+body {
+
+    background-color: #00eaff;
+    text-align: center;
+}
+
+.divdesign {
+    height: 7px;
+    background-color: black;
+    width: 110px;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+li a {
+    color: darkturquoise !important;
+    text-shadow: 1px 2px !important;
+    font-family: 'Sriracha', cursive !important;
+}
+
+.menu {
+    position: fixed;
+    list-style: none;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    width: 1475px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.item {
+    display: inline;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2, h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+section {
+    background: linear-gradient(#00eaff 0%, #fff700 50%, #00eaff 100%)
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    background: #f1f120;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000dff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+    background: #ff0000;
+}
+
+::-webkit-scrollbar-button:single-button {
+    background-color: none;
+    display: block;
+    border-style: solid;
+    height: 13px;
+    width: 16px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0px 8px 9px 8px;
+    border-color: transparent #f0f0ff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 0px 8px 9px 8px;
+    border-color: transparent #00eaff;
+    border-radius: 10px;
+}
+
+marquee {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#home p {
+    font-size: 40px !important;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
